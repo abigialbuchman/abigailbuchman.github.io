@@ -1,6 +1,7 @@
 body {
   margin: 60px auto;
   width: 70%;
+  background-color: f3f4f4;
 }
 nav ul, footer ul {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
@@ -38,4 +39,39 @@ ul.post {
 }
 ul.posts li{
   list-style: none;
+}
+#header {
+  z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #dfedf9;
+	margin-bottom: 10px;
+}
+#name {
+	float:center;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #3f4040;
+}
+.main {
+	position: relative;
+	margin-top: 50px;
+	width: 95%;
+	height: 400px;
+	background-color: #aed3f2;
+	margin-bottom: 10px;
+}
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #668284;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
 }
