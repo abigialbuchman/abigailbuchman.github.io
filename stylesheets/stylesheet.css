@@ -243,7 +243,7 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-#header {
+.header {
   z-index: 1;
 	position: fixed;
 	width: 97.5%;
@@ -252,7 +252,7 @@ a {
 	background-color: #dfedf9;
 	margin-bottom: 10px;
 }
-#name {
+.name {
 	float:center;
 	margin-left: 5px;
 	padding-top: 5px;
@@ -260,7 +260,7 @@ a {
 	font-family: Verdana, sans-serif;
 	color: #3f4040;
 }
-.main {
+#main {
 	position: relative;
 	margin-top: 50px;
 	width: 95%;
@@ -268,7 +268,7 @@ a {
 	background-color: #aed3f2;
 	margin-bottom: 10px;
 }
-#footer {
+.footer {
 	position: relative;
 	height: 50px;
 	background-color: #668284;
